@@ -81,12 +81,14 @@ h1 {
 
 
 
-/*Main-benefits*/
+/*Main Benefits*/
 
 .main-benefits {
   display: flex;
   justify-content: center;
 }
+
+/*Benefit*/
 
 .benefit {
   display: flex;
@@ -105,4 +107,44 @@ h1 {
 .benefit img {
   width: 5rem;
   margin-bottom: 1rem;
+}
+
+/*Info Section*/
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: cadetblue;
+}
+
+.info {
+  width: 35%;
+  margin-top: 1rem;
+  margin-right: 5%;
+}
+
+/*Footer*/
+
+footer.container {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+footer div {
 }
